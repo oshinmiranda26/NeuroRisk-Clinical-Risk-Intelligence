@@ -10,7 +10,7 @@ from pathlib import Path
 import pandas as pd
 
 from neurorisk.documents import build_documents, build_questions, load_tables
-from neurorisk.retrieve import (EmbeddingRetriever, FilteredEmbeddingRetriever, HybridRetriever,
+from neurorisk.retrieve import (EmbeddingRetriever, HybridRetriever, PatientFilteredRetriever,
                                 TfidfRetriever)
 
 RESULTS = Path("results")
@@ -35,7 +35,10 @@ def main():
 
     tfidf = TfidfRetriever(docs)
     emb = EmbeddingRetriever(docs)
-    retrievers = [tfidf, emb, HybridRetriever(tfidf, emb), FilteredEmbeddingRetriever(emb)]
+    f_tfidf, f_emb = PatientFilteredRetriever(tfidf), PatientFilteredRetriever(emb)
+    f_hybrid = HybridRetriever(f_tfidf, f_emb)
+    f_hybrid.name = "hybrid_rrf_patient_filter"
+    retrievers = [tfidf, emb, HybridRetriever(tfidf, emb), f_tfidf, f_emb, f_hybrid]
 
     overall, by_type = [], []
     for r in retrievers:

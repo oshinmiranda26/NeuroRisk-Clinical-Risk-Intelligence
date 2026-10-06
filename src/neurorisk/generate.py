@@ -26,6 +26,7 @@ CONDITIONS = {  # ICD-10 code: (description, prevalence)
     "I10": ("Essential hypertension", 0.30),
     "E11.9": ("Type 2 diabetes", 0.15),
 }
+SEROTONERGIC = {"sertraline", "escitalopram", "venlafaxine"}
 TREATMENTS = {  # condition -> possible medications
     "F33.1": ["sertraline", "escitalopram", "bupropion", "venlafaxine"],
     "F41.1": ["escitalopram", "sertraline", "buspirone"],
@@ -85,7 +86,14 @@ def generate(n_patients=N_PATIENTS, seed=SEED):
         codes = [c for c, (_, p) in CONDITIONS.items() if rng.random() < p] or ["F41.1"]
         for c in codes:
             conditions.append({"patient_id": pid, "icd10": c, "description": CONDITIONS[c][0]})
-        meds = sorted({str(rng.choice(TREATMENTS[c])) for c in codes})
+        meds = []
+        for c in codes:
+            m = str(rng.choice(TREATMENTS[c]))
+            # Clinical realism: at most one serotonergic antidepressant (SSRI/SNRI) per patient
+            if m in SEROTONERGIC and any(x in SEROTONERGIC for x in meds):
+                continue
+            meds.append(m)
+        meds = sorted(set(meds))
         for m in meds:
             medications.append({"patient_id": pid, "medication": m})
 

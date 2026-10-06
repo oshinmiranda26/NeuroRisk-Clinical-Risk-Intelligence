@@ -1,5 +1,5 @@
-qtype,tfidf,embeddings,hybrid_rrf,embeddings_patient_filter
-ed_visit,0.577,0.385,0.769,1.0
-max_phq9,0.66,0.1,0.38,0.88
-medications,1.0,0.34,1.0,1.0
-visit_score,1.0,0.04,0.48,0.6
+qtype,tfidf,embeddings,hybrid_rrf,tfidf_patient_filter,embeddings_patient_filter,hybrid_rrf_patient_filter
+ed_visit,0.577,0.346,0.731,0.577,1.0,0.885
+max_phq9,0.66,0.1,0.4,0.66,0.88,0.78
+medications,1.0,0.32,1.0,1.0,1.0,1.0
+visit_score,1.0,0.04,0.52,1.0,0.6,0.96

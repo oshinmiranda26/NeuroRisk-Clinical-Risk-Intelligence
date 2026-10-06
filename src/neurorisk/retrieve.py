@@ -3,8 +3,8 @@
 - TF-IDF: keyword matching; strong on exact identifiers and dates
 - Embeddings: semantic similarity (all-MiniLM-L6-v2); strong on meaning, weak on exact identifiers
 - Hybrid: combines both rankings with reciprocal rank fusion
-- Patient-filtered embeddings: restrict to the patient named in the question, then rank by meaning
-  (how production clinical systems usually work)
+- Patient-filtered retrieval: restrict to the patient named in the question, then rank
+  (how production clinical systems usually work); can wrap TF-IDF, embeddings, or both via hybrid fusion
 """
 import re
 
@@ -19,12 +19,15 @@ class TfidfRetriever:
 
     def __init__(self, docs):
         self.ids = docs["doc_id"].tolist()
+        self.patients = docs["patient_id"].to_numpy()
         self.vec = TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True)
         self.matrix = self.vec.fit_transform(docs["text"])
 
+    def scores(self, query):
+        return (self.matrix @ self.vec.transform([query]).T).toarray().ravel()
+
     def search(self, query, k=5):
-        scores = (self.matrix @ self.vec.transform([query]).T).toarray().ravel()
-        top = np.argsort(scores)[::-1][:k]
+        top = np.argsort(self.scores(query))[::-1][:k]
         return [self.ids[i] for i in top]
 
 
@@ -48,11 +51,12 @@ class EmbeddingRetriever:
         return [self.ids[i] for i in top]
 
 
-class FilteredEmbeddingRetriever:
-    name = "embeddings_patient_filter"
+class PatientFilteredRetriever:
+    """Wrap any retriever that exposes scores(); search only the documents of the patient named in the question."""
 
-    def __init__(self, embedding_retriever):
-        self.base = embedding_retriever
+    def __init__(self, base):
+        self.base = base
+        self.name = f"{base.name}_patient_filter"
 
     def search(self, query, k=5):
         s = self.base.scores(query)

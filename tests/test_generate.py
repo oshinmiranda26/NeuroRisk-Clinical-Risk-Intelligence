@@ -19,3 +19,10 @@ def test_every_patient_has_a_condition_and_encounters():
     t = generate(n_patients=30, seed=3)
     assert set(t["conditions"]["patient_id"]) == set(t["patients"]["patient_id"])
     assert t["encounters"].groupby("patient_id").size().min() >= 3
+
+
+def test_at_most_one_serotonergic_antidepressant_per_patient():
+    from neurorisk.generate import SEROTONERGIC
+    t = generate(n_patients=200, seed=42)
+    per_patient = t["medications"][t["medications"]["medication"].isin(SEROTONERGIC)].groupby("patient_id").size()
+    assert (per_patient <= 1).all()

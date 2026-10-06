@@ -1,0 +1,6 @@
+qtype,correct,cites_relevant,cites_only_retrieved
+ed_visit,0.5,1.0,1.0
+max_phq9,0.8,0.8,1.0
+medications,1.0,1.0,1.0
+visit_score,0.2,1.0,1.0
+overall,0.625,0.95,1.0

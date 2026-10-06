@@ -3,3 +3,5 @@ numpy
 pytest
 scikit-learn
 sentence-transformers
+anthropic
+streamlit
