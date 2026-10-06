@@ -1,0 +1,443 @@
+patient_id,icd10,description
+P001,F43.10,Post-traumatic stress disorder
+P001,I10,Essential hypertension
+P002,F41.1,Generalized anxiety disorder
+P002,G47.00,Insomnia
+P003,G47.00,Insomnia
+P003,I10,Essential hypertension
+P004,F33.1,"Major depressive disorder, recurrent, moderate"
+P004,F41.1,Generalized anxiety disorder
+P005,F33.1,"Major depressive disorder, recurrent, moderate"
+P005,F41.1,Generalized anxiety disorder
+P005,G47.00,Insomnia
+P006,F43.10,Post-traumatic stress disorder
+P006,F31.9,Bipolar disorder
+P006,E11.9,Type 2 diabetes
+P007,F33.1,"Major depressive disorder, recurrent, moderate"
+P007,F10.20,Alcohol dependence
+P007,I10,Essential hypertension
+P008,F33.1,"Major depressive disorder, recurrent, moderate"
+P008,F43.10,Post-traumatic stress disorder
+P008,F10.20,Alcohol dependence
+P009,F43.10,Post-traumatic stress disorder
+P009,F10.20,Alcohol dependence
+P009,G47.00,Insomnia
+P009,E11.9,Type 2 diabetes
+P010,F33.1,"Major depressive disorder, recurrent, moderate"
+P011,F41.1,Generalized anxiety disorder
+P011,F43.10,Post-traumatic stress disorder
+P011,E11.9,Type 2 diabetes
+P012,F33.1,"Major depressive disorder, recurrent, moderate"
+P012,F41.1,Generalized anxiety disorder
+P012,F43.10,Post-traumatic stress disorder
+P012,G47.00,Insomnia
+P013,F41.1,Generalized anxiety disorder
+P014,I10,Essential hypertension
+P015,F33.1,"Major depressive disorder, recurrent, moderate"
+P015,F41.1,Generalized anxiety disorder
+P016,F33.1,"Major depressive disorder, recurrent, moderate"
+P016,F41.1,Generalized anxiety disorder
+P017,F33.1,"Major depressive disorder, recurrent, moderate"
+P017,G47.00,Insomnia
+P018,F41.1,Generalized anxiety disorder
+P018,I10,Essential hypertension
+P019,F41.1,Generalized anxiety disorder
+P020,F33.1,"Major depressive disorder, recurrent, moderate"
+P021,F33.1,"Major depressive disorder, recurrent, moderate"
+P021,F41.1,Generalized anxiety disorder
+P021,F10.20,Alcohol dependence
+P021,G47.00,Insomnia
+P022,F33.1,"Major depressive disorder, recurrent, moderate"
+P022,F41.1,Generalized anxiety disorder
+P022,F43.10,Post-traumatic stress disorder
+P022,E11.9,Type 2 diabetes
+P023,F33.1,"Major depressive disorder, recurrent, moderate"
+P024,F41.1,Generalized anxiety disorder
+P024,I10,Essential hypertension
+P025,F33.1,"Major depressive disorder, recurrent, moderate"
+P025,F41.1,Generalized anxiety disorder
+P025,F43.10,Post-traumatic stress disorder
+P025,F10.20,Alcohol dependence
+P026,F41.1,Generalized anxiety disorder
+P027,F33.1,"Major depressive disorder, recurrent, moderate"
+P027,F43.10,Post-traumatic stress disorder
+P027,I10,Essential hypertension
+P027,E11.9,Type 2 diabetes
+P028,F33.1,"Major depressive disorder, recurrent, moderate"
+P028,F43.10,Post-traumatic stress disorder
+P028,F31.9,Bipolar disorder
+P028,G47.00,Insomnia
+P029,F33.1,"Major depressive disorder, recurrent, moderate"
+P029,I10,Essential hypertension
+P029,E11.9,Type 2 diabetes
+P030,F33.1,"Major depressive disorder, recurrent, moderate"
+P030,F41.1,Generalized anxiety disorder
+P031,E11.9,Type 2 diabetes
+P032,F10.20,Alcohol dependence
+P032,E11.9,Type 2 diabetes
+P033,F41.1,Generalized anxiety disorder
+P034,F33.1,"Major depressive disorder, recurrent, moderate"
+P034,F41.1,Generalized anxiety disorder
+P034,F10.20,Alcohol dependence
+P035,G47.00,Insomnia
+P035,I10,Essential hypertension
+P036,F41.1,Generalized anxiety disorder
+P036,I10,Essential hypertension
+P037,F41.1,Generalized anxiety disorder
+P038,E11.9,Type 2 diabetes
+P039,F33.1,"Major depressive disorder, recurrent, moderate"
+P040,F41.1,Generalized anxiety disorder
+P041,F33.1,"Major depressive disorder, recurrent, moderate"
+P041,G47.00,Insomnia
+P041,I10,Essential hypertension
+P042,F41.1,Generalized anxiety disorder
+P043,F33.1,"Major depressive disorder, recurrent, moderate"
+P043,G47.00,Insomnia
+P044,I10,Essential hypertension
+P045,F33.1,"Major depressive disorder, recurrent, moderate"
+P045,G47.00,Insomnia
+P045,I10,Essential hypertension
+P046,F33.1,"Major depressive disorder, recurrent, moderate"
+P046,F41.1,Generalized anxiety disorder
+P046,F43.10,Post-traumatic stress disorder
+P046,I10,Essential hypertension
+P047,F33.1,"Major depressive disorder, recurrent, moderate"
+P047,F41.1,Generalized anxiety disorder
+P047,G47.00,Insomnia
+P048,F33.1,"Major depressive disorder, recurrent, moderate"
+P048,F41.1,Generalized anxiety disorder
+P049,F41.1,Generalized anxiety disorder
+P049,F43.10,Post-traumatic stress disorder
+P049,G47.00,Insomnia
+P050,F41.1,Generalized anxiety disorder
+P051,F33.1,"Major depressive disorder, recurrent, moderate"
+P051,F41.1,Generalized anxiety disorder
+P051,F43.10,Post-traumatic stress disorder
+P052,F33.1,"Major depressive disorder, recurrent, moderate"
+P052,F41.1,Generalized anxiety disorder
+P053,F31.9,Bipolar disorder
+P053,G47.00,Insomnia
+P053,I10,Essential hypertension
+P054,F33.1,"Major depressive disorder, recurrent, moderate"
+P054,F43.10,Post-traumatic stress disorder
+P054,F10.20,Alcohol dependence
+P055,F41.1,Generalized anxiety disorder
+P056,F33.1,"Major depressive disorder, recurrent, moderate"
+P056,F41.1,Generalized anxiety disorder
+P056,F31.9,Bipolar disorder
+P057,F41.1,Generalized anxiety disorder
+P058,G47.00,Insomnia
+P059,F33.1,"Major depressive disorder, recurrent, moderate"
+P059,G47.00,Insomnia
+P059,I10,Essential hypertension
+P060,F33.1,"Major depressive disorder, recurrent, moderate"
+P060,F43.10,Post-traumatic stress disorder
+P060,G47.00,Insomnia
+P061,F41.1,Generalized anxiety disorder
+P061,G47.00,Insomnia
+P061,I10,Essential hypertension
+P062,F41.1,Generalized anxiety disorder
+P063,F41.1,Generalized anxiety disorder
+P063,F31.9,Bipolar disorder
+P063,E11.9,Type 2 diabetes
+P064,F41.1,Generalized anxiety disorder
+P064,I10,Essential hypertension
+P065,G47.00,Insomnia
+P066,F33.1,"Major depressive disorder, recurrent, moderate"
+P066,F10.20,Alcohol dependence
+P067,F33.1,"Major depressive disorder, recurrent, moderate"
+P067,F43.10,Post-traumatic stress disorder
+P068,F41.1,Generalized anxiety disorder
+P069,F41.1,Generalized anxiety disorder
+P069,E11.9,Type 2 diabetes
+P070,F41.1,Generalized anxiety disorder
+P070,F43.10,Post-traumatic stress disorder
+P070,F10.20,Alcohol dependence
+P070,I10,Essential hypertension
+P071,F43.10,Post-traumatic stress disorder
+P072,F41.1,Generalized anxiety disorder
+P073,F43.10,Post-traumatic stress disorder
+P073,G47.00,Insomnia
+P073,I10,Essential hypertension
+P074,F43.10,Post-traumatic stress disorder
+P074,I10,Essential hypertension
+P075,F33.1,"Major depressive disorder, recurrent, moderate"
+P076,F33.1,"Major depressive disorder, recurrent, moderate"
+P076,I10,Essential hypertension
+P077,F33.1,"Major depressive disorder, recurrent, moderate"
+P077,F41.1,Generalized anxiety disorder
+P077,F43.10,Post-traumatic stress disorder
+P077,E11.9,Type 2 diabetes
+P078,F33.1,"Major depressive disorder, recurrent, moderate"
+P078,F41.1,Generalized anxiety disorder
+P078,F10.20,Alcohol dependence
+P078,G47.00,Insomnia
+P079,F33.1,"Major depressive disorder, recurrent, moderate"
+P079,G47.00,Insomnia
+P080,F33.1,"Major depressive disorder, recurrent, moderate"
+P080,G47.00,Insomnia
+P080,E11.9,Type 2 diabetes
+P081,F33.1,"Major depressive disorder, recurrent, moderate"
+P081,F41.1,Generalized anxiety disorder
+P082,E11.9,Type 2 diabetes
+P083,G47.00,Insomnia
+P083,E11.9,Type 2 diabetes
+P084,F33.1,"Major depressive disorder, recurrent, moderate"
+P084,F41.1,Generalized anxiety disorder
+P084,F10.20,Alcohol dependence
+P084,I10,Essential hypertension
+P085,F41.1,Generalized anxiety disorder
+P085,F43.10,Post-traumatic stress disorder
+P085,F10.20,Alcohol dependence
+P085,G47.00,Insomnia
+P086,F33.1,"Major depressive disorder, recurrent, moderate"
+P086,F41.1,Generalized anxiety disorder
+P086,F43.10,Post-traumatic stress disorder
+P086,G47.00,Insomnia
+P086,E11.9,Type 2 diabetes
+P087,G47.00,Insomnia
+P087,E11.9,Type 2 diabetes
+P088,F41.1,Generalized anxiety disorder
+P089,F33.1,"Major depressive disorder, recurrent, moderate"
+P089,F41.1,Generalized anxiety disorder
+P089,G47.00,Insomnia
+P090,F33.1,"Major depressive disorder, recurrent, moderate"
+P090,G47.00,Insomnia
+P091,E11.9,Type 2 diabetes
+P092,F33.1,"Major depressive disorder, recurrent, moderate"
+P092,F41.1,Generalized anxiety disorder
+P092,I10,Essential hypertension
+P093,F33.1,"Major depressive disorder, recurrent, moderate"
+P093,F41.1,Generalized anxiety disorder
+P094,F33.1,"Major depressive disorder, recurrent, moderate"
+P095,I10,Essential hypertension
+P096,F33.1,"Major depressive disorder, recurrent, moderate"
+P096,F41.1,Generalized anxiety disorder
+P096,G47.00,Insomnia
+P097,I10,Essential hypertension
+P098,F33.1,"Major depressive disorder, recurrent, moderate"
+P098,F10.20,Alcohol dependence
+P098,I10,Essential hypertension
+P099,F33.1,"Major depressive disorder, recurrent, moderate"
+P100,F33.1,"Major depressive disorder, recurrent, moderate"
+P100,F41.1,Generalized anxiety disorder
+P100,F43.10,Post-traumatic stress disorder
+P100,F10.20,Alcohol dependence
+P100,I10,Essential hypertension
+P101,F33.1,"Major depressive disorder, recurrent, moderate"
+P101,I10,Essential hypertension
+P102,F41.1,Generalized anxiety disorder
+P103,F41.1,Generalized anxiety disorder
+P103,F31.9,Bipolar disorder
+P103,I10,Essential hypertension
+P103,E11.9,Type 2 diabetes
+P104,F41.1,Generalized anxiety disorder
+P104,F43.10,Post-traumatic stress disorder
+P104,F31.9,Bipolar disorder
+P104,E11.9,Type 2 diabetes
+P105,F33.1,"Major depressive disorder, recurrent, moderate"
+P105,F41.1,Generalized anxiety disorder
+P105,F43.10,Post-traumatic stress disorder
+P105,I10,Essential hypertension
+P106,F41.1,Generalized anxiety disorder
+P107,F33.1,"Major depressive disorder, recurrent, moderate"
+P107,F10.20,Alcohol dependence
+P107,F31.9,Bipolar disorder
+P107,I10,Essential hypertension
+P108,F41.1,Generalized anxiety disorder
+P109,F33.1,"Major depressive disorder, recurrent, moderate"
+P110,F33.1,"Major depressive disorder, recurrent, moderate"
+P110,F41.1,Generalized anxiety disorder
+P110,G47.00,Insomnia
+P111,F33.1,"Major depressive disorder, recurrent, moderate"
+P111,F43.10,Post-traumatic stress disorder
+P111,G47.00,Insomnia
+P112,G47.00,Insomnia
+P112,I10,Essential hypertension
+P113,F33.1,"Major depressive disorder, recurrent, moderate"
+P113,F41.1,Generalized anxiety disorder
+P113,F43.10,Post-traumatic stress disorder
+P114,G47.00,Insomnia
+P115,F41.1,Generalized anxiety disorder
+P115,G47.00,Insomnia
+P115,E11.9,Type 2 diabetes
+P116,F41.1,Generalized anxiety disorder
+P116,G47.00,Insomnia
+P117,F43.10,Post-traumatic stress disorder
+P118,F31.9,Bipolar disorder
+P118,I10,Essential hypertension
+P118,E11.9,Type 2 diabetes
+P119,F33.1,"Major depressive disorder, recurrent, moderate"
+P119,F43.10,Post-traumatic stress disorder
+P119,F10.20,Alcohol dependence
+P120,F33.1,"Major depressive disorder, recurrent, moderate"
+P120,F43.10,Post-traumatic stress disorder
+P120,E11.9,Type 2 diabetes
+P121,I10,Essential hypertension
+P122,F41.1,Generalized anxiety disorder
+P123,F31.9,Bipolar disorder
+P124,I10,Essential hypertension
+P125,F10.20,Alcohol dependence
+P125,E11.9,Type 2 diabetes
+P126,F33.1,"Major depressive disorder, recurrent, moderate"
+P126,I10,Essential hypertension
+P127,F41.1,Generalized anxiety disorder
+P128,F33.1,"Major depressive disorder, recurrent, moderate"
+P129,F41.1,Generalized anxiety disorder
+P129,I10,Essential hypertension
+P129,E11.9,Type 2 diabetes
+P130,F33.1,"Major depressive disorder, recurrent, moderate"
+P130,F43.10,Post-traumatic stress disorder
+P131,F41.1,Generalized anxiety disorder
+P131,G47.00,Insomnia
+P132,F41.1,Generalized anxiety disorder
+P133,F33.1,"Major depressive disorder, recurrent, moderate"
+P133,F41.1,Generalized anxiety disorder
+P133,F43.10,Post-traumatic stress disorder
+P133,G47.00,Insomnia
+P134,F10.20,Alcohol dependence
+P134,I10,Essential hypertension
+P135,F33.1,"Major depressive disorder, recurrent, moderate"
+P135,F41.1,Generalized anxiety disorder
+P135,F43.10,Post-traumatic stress disorder
+P136,F41.1,Generalized anxiety disorder
+P137,F33.1,"Major depressive disorder, recurrent, moderate"
+P137,F43.10,Post-traumatic stress disorder
+P137,I10,Essential hypertension
+P138,F33.1,"Major depressive disorder, recurrent, moderate"
+P138,F41.1,Generalized anxiety disorder
+P139,F41.1,Generalized anxiety disorder
+P140,F41.1,Generalized anxiety disorder
+P140,G47.00,Insomnia
+P140,I10,Essential hypertension
+P141,F33.1,"Major depressive disorder, recurrent, moderate"
+P141,F41.1,Generalized anxiety disorder
+P141,G47.00,Insomnia
+P142,F33.1,"Major depressive disorder, recurrent, moderate"
+P142,F41.1,Generalized anxiety disorder
+P142,F31.9,Bipolar disorder
+P142,G47.00,Insomnia
+P143,F41.1,Generalized anxiety disorder
+P144,F41.1,Generalized anxiety disorder
+P144,G47.00,Insomnia
+P144,E11.9,Type 2 diabetes
+P145,F33.1,"Major depressive disorder, recurrent, moderate"
+P145,F41.1,Generalized anxiety disorder
+P145,F43.10,Post-traumatic stress disorder
+P145,G47.00,Insomnia
+P145,I10,Essential hypertension
+P146,G47.00,Insomnia
+P147,F31.9,Bipolar disorder
+P147,I10,Essential hypertension
+P148,G47.00,Insomnia
+P149,F33.1,"Major depressive disorder, recurrent, moderate"
+P149,F43.10,Post-traumatic stress disorder
+P149,I10,Essential hypertension
+P150,F31.9,Bipolar disorder
+P150,G47.00,Insomnia
+P151,F31.9,Bipolar disorder
+P152,G47.00,Insomnia
+P152,I10,Essential hypertension
+P153,F43.10,Post-traumatic stress disorder
+P153,G47.00,Insomnia
+P154,G47.00,Insomnia
+P155,F41.1,Generalized anxiety disorder
+P156,F33.1,"Major depressive disorder, recurrent, moderate"
+P156,F10.20,Alcohol dependence
+P156,F31.9,Bipolar disorder
+P157,F33.1,"Major depressive disorder, recurrent, moderate"
+P157,F10.20,Alcohol dependence
+P158,F43.10,Post-traumatic stress disorder
+P159,F10.20,Alcohol dependence
+P159,I10,Essential hypertension
+P160,I10,Essential hypertension
+P161,F33.1,"Major depressive disorder, recurrent, moderate"
+P161,F31.9,Bipolar disorder
+P162,F41.1,Generalized anxiety disorder
+P163,I10,Essential hypertension
+P163,E11.9,Type 2 diabetes
+P164,F33.1,"Major depressive disorder, recurrent, moderate"
+P164,F41.1,Generalized anxiety disorder
+P164,F10.20,Alcohol dependence
+P165,F33.1,"Major depressive disorder, recurrent, moderate"
+P165,F41.1,Generalized anxiety disorder
+P165,F43.10,Post-traumatic stress disorder
+P165,G47.00,Insomnia
+P166,F33.1,"Major depressive disorder, recurrent, moderate"
+P166,F43.10,Post-traumatic stress disorder
+P166,G47.00,Insomnia
+P167,F33.1,"Major depressive disorder, recurrent, moderate"
+P167,F41.1,Generalized anxiety disorder
+P167,G47.00,Insomnia
+P167,I10,Essential hypertension
+P168,I10,Essential hypertension
+P169,F41.1,Generalized anxiety disorder
+P169,F31.9,Bipolar disorder
+P169,G47.00,Insomnia
+P170,F41.1,Generalized anxiety disorder
+P171,F33.1,"Major depressive disorder, recurrent, moderate"
+P171,F10.20,Alcohol dependence
+P172,E11.9,Type 2 diabetes
+P173,I10,Essential hypertension
+P173,E11.9,Type 2 diabetes
+P174,F41.1,Generalized anxiety disorder
+P174,F10.20,Alcohol dependence
+P175,F41.1,Generalized anxiety disorder
+P176,F41.1,Generalized anxiety disorder
+P177,F41.1,Generalized anxiety disorder
+P178,F41.1,Generalized anxiety disorder
+P178,G47.00,Insomnia
+P179,F33.1,"Major depressive disorder, recurrent, moderate"
+P179,F41.1,Generalized anxiety disorder
+P179,G47.00,Insomnia
+P179,E11.9,Type 2 diabetes
+P180,F10.20,Alcohol dependence
+P181,F10.20,Alcohol dependence
+P181,F31.9,Bipolar disorder
+P181,G47.00,Insomnia
+P182,F43.10,Post-traumatic stress disorder
+P183,F41.1,Generalized anxiety disorder
+P184,F33.1,"Major depressive disorder, recurrent, moderate"
+P184,F10.20,Alcohol dependence
+P184,F31.9,Bipolar disorder
+P184,G47.00,Insomnia
+P184,I10,Essential hypertension
+P185,F33.1,"Major depressive disorder, recurrent, moderate"
+P185,F43.10,Post-traumatic stress disorder
+P185,G47.00,Insomnia
+P186,F41.1,Generalized anxiety disorder
+P186,F43.10,Post-traumatic stress disorder
+P186,F10.20,Alcohol dependence
+P187,F33.1,"Major depressive disorder, recurrent, moderate"
+P187,F41.1,Generalized anxiety disorder
+P187,F43.10,Post-traumatic stress disorder
+P187,I10,Essential hypertension
+P188,F41.1,Generalized anxiety disorder
+P189,F33.1,"Major depressive disorder, recurrent, moderate"
+P189,F43.10,Post-traumatic stress disorder
+P189,G47.00,Insomnia
+P189,I10,Essential hypertension
+P190,F33.1,"Major depressive disorder, recurrent, moderate"
+P190,F10.20,Alcohol dependence
+P190,G47.00,Insomnia
+P191,F43.10,Post-traumatic stress disorder
+P191,G47.00,Insomnia
+P192,F41.1,Generalized anxiety disorder
+P192,G47.00,Insomnia
+P192,I10,Essential hypertension
+P193,F33.1,"Major depressive disorder, recurrent, moderate"
+P193,G47.00,Insomnia
+P193,I10,Essential hypertension
+P194,F43.10,Post-traumatic stress disorder
+P194,G47.00,Insomnia
+P195,F33.1,"Major depressive disorder, recurrent, moderate"
+P195,I10,Essential hypertension
+P196,F33.1,"Major depressive disorder, recurrent, moderate"
+P197,F33.1,"Major depressive disorder, recurrent, moderate"
+P197,G47.00,Insomnia
+P198,I10,Essential hypertension
+P199,F33.1,"Major depressive disorder, recurrent, moderate"
+P199,F41.1,Generalized anxiety disorder
+P200,F43.10,Post-traumatic stress disorder
+P200,I10,Essential hypertension
+P200,E11.9,Type 2 diabetes
