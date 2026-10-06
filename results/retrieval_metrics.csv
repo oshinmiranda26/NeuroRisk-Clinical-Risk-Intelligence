@@ -1,0 +1,5 @@
+retriever,hit@1,hit@3,hit@5,MRR,ms_per_query
+tfidf,0.716,0.841,0.915,0.783,0.283
+embeddings,0.108,0.193,0.239,0.156,7.169
+hybrid_rrf,0.506,0.642,0.756,0.59,4.446
+embeddings_patient_filter,0.619,0.852,0.949,0.745,4.004
